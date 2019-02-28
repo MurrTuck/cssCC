@@ -28,13 +28,26 @@ a:active{
 }
 
 a:visited{
-    color:blue;
+    /* color:black; */
 }
 
 .container{
     width:80%;
     margin: auto;
 }
+
+.button{
+    background-color: #333;
+    color:#fff;
+    padding:10px 15px;
+    border:none;
+}
+
+.button:hover{
+    color:white;
+    background: red;
+}
+
 
 .box-1 {
     background-color: #333333;
@@ -102,6 +115,26 @@ a:visited{
 .categories li{
     
     padding-bottom:6px;
-    border-bottom:dotted 1px blue;
+    border-bottom:dotted 1px #000;
     list-style-image: url('../images/checksmall.png');
 }
+
+.my-form{
+    padding:20px;
+
+}
+
+.my-form .form-group{
+    padding-bottom: 15px;
+
+}
+
+.my-form label{
+    display:block;
+}
+
+.my-form input[type="text"], .my-form textarea{
+    padding: 8px;
+    width: 100%;
+}
+
